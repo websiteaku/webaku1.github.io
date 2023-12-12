@@ -1,0 +1,95 @@
+body {
+    color: #787878;
+    font-size: 11px;
+    font-family: Tahoma;
+    margin: auto;
+    border: 1px solid #e1e1e1;
+    max-width: 500px;
+    position: sticky;
+    }
+a, a:link, a:visited {
+    color: #00bae8;
+    text-decoration: none;
+    }
+input, textarea, select , button{
+    color: #6d6d6d;
+    background-color: #fbfbfb;
+    border: 1px solid #e3e3e3;
+    margin: 1px;
+    }
+hr, div.hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-bottom: 1px dotted #e3e3e3;
+    border-right-style: none;
+    border-right-width: 0;
+    border-top-style: none;
+    border-top-width: 0;
+    border-left-style: none;
+    border-left-width: 0;
+    }
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 1px;
+    background-color: #84e2f8;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #68e1ff;
+    }
+.gmenu {
+    color: #75bf00;
+    background-color: #fafff0;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #d4eba1;
+    }
+.gmenu a {
+    color: #6db900;
+    border-bottom: 1px dotted#cfe798;
+    }
+.footer{
+    color: #ffffff;
+    text-shadow: #45cdf5 1px 1px 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #68e1ff;
+    background-color: #84e2f8;
+    }
+.footer a {
+    color: #fe8f17;
+    text-decoration: none;
+    border-bottom: 1px dotted #979797;
+    }
+.list1 {
+    background-color: #f6f6f6;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #e7e7e7;
+    }
+.list2 {
+    background-color: #fdfdfd;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #ececec;
+    }
+.maintxt {
+    padding-right: 1px;
+    padding-left: 1px;
+    border: 1px solid #dadada;
+    }
+.alarm {
+    color: #fd4646;
+    background-color: #fff0f0;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #ffd0d0;
+    }

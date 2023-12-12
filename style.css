@@ -1,0 +1,268 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+.active a {
+    background-color: green;
+    border-radius: 15px;
+    color: darkblue; 
+
+}
+
+body {
+    background: rgb(221,218,218);
+    margin: auto;
+    font-family: 'open sans', sans-serif;
+}
+
+hr {
+    border:0;
+    background:greenyellow;
+    height:2px;
+}
+
+header img{
+    margin-top: 5px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    color:red;
+}
+
+header .judul{
+    font-size: 17pt;
+}
+
+header .deskripsi{
+    font-size:11pt;
+}
+
+.wrap{
+    width: 950px;
+    margin:25px auto;
+}
+nav.menu ul{
+    overflow:hidden;
+    color:black;
+    list-style: none;
+    float: left;
+    padding: 0px;
+    width: 650px;
+    margin:0 0 0;
+    background:blue (2, 120 ,150);
+    -webkit-box-shadow:1px 1px 1px 0px rgba(204,204,204,0,55);
+    -moz-box-shadow:1px 1px 1px 0px rgba(104,104,104,0,55);
+    box-shadow: 5px 5px 5px 0px rgba(148,137,137,0,55);
+    border-radius: 15px;
+    display:flex;
+    font-family:'segoe UI',Tahoma,geneva,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:red;
+}
+
+nav.menu ul a {
+    padding:10px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    transform: all 0.5s ease;
+    text-decoration: none;
+    text-align: center;
+}
+.active a{
+    color: red;
+}
+nav.menu ul a:hover {
+    text-decoration: underline;
+    border-radius: 15px;
+    background: white;
+    color: blue(2,12,150);
+}
+nav.menu ul a:active {
+    color:red;
+}
+.sidebar {
+    float:right;
+    width:275px;
+}
+.widget-pict {
+    border-radius: 8px;
+}
+.sidebar .widget {
+    padding: 25%;
+    margin: 0 0 25px;
+    background: #dedede;
+    border-bottom: 2px solid green;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    border: 1px solid blue(10,128,238,0.55);
+
+}
+.sidebar .widget:hover {
+    border-bottom: 4px solid #dedede;
+    box-shadow: 5px 5px 5px 5px 0px green(148,137,0.55);
+
+}
+.sidebar .widget h2 {
+    padding: 0;
+    margin: 0 0 15px;
+    color: blue;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.sidebar.widget p {
+    font-size: 14px;
+    margin:auto;
+}
+.sidebar .widget p:last-child {
+    margin: 0;
+}
+.blog {
+    float: left;
+}
+.widget .faq-selengkapnya {
+    color: black;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.faq-selengkapnya:hover {
+    margin-left: 10px;
+    
+}
+.conteudo {
+    width: 600px;
+    padding: 25px;
+    margin: 25px auto;
+    background: green;
+    transition: all 0.5s ease;
+    border: 1px solid green;
+    -webkit-box-shadow:1px 1px 1px 0px rgba(204,204,204,0,55);
+    -moz-box-shadow:1px 1px 1px 0px rgba(104,104,104,0,55);
+    box-shadow: 5px 5px 5px 0px rgba(148,137,137,0,55);
+    border-radius: 15px;
+    background-color: rgb(240,240,240);
+}
+.conteudo:hover {
+    border-bottom: 4px solid blue;
+    box-shadow: 5px 5px 5px 0px chocolate(148,137,137,0.55);
+
+}
+.conteudo img {
+    min-width: 650px;
+    margin: 0 0 25px -25px;
+    max-width: 650px;
+}
+.conteudo h1 {
+    padding: 0;
+    margin: 0 0 15px;
+    font-weight: normal;
+    color: blueviolet;
+    font-family: Georgia;
+
+}
+.conteudo p:last-child{
+    margin: 0;
+}
+.conteudo .continue-lendo{
+    color: black;
+    transition: all 0,5s ease;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.conteudo .continue-lendo:hover{
+    margin-left: 10px;
+}
+
+.post-info {
+    float: right;
+    font-size: 12px;
+    margin: -10px 0 15 px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 960px){
+    .header {
+        position: inherit;
+        
+    }
+    .wrap {
+        width: 90%;
+        margin: 25px auto;
+    }
+    .sidebar {
+        width: 100%;
+        margin:25px 0 0;
+        float: right;
+    }
+    .sidebar.widget {
+        padding: 5%;
+    }
+    nav.menu ul {
+        width: 100%;
+    }
+    nav.menu ul {
+        float: inherit;
+        
+    }
+    nav.menu ul li {
+        float: inherit;
+        margin: 0;
+    }
+    nav.menu ul a {
+        padding: 15px;
+        font-size: 15px;
+        border-top: 1px solid greenyellow;
+        border-bottom: 1px solid greenyellow;
+    }
+    .blog{
+        width: 90%;
+    }
+    .conteudo{
+        float: inherit;
+        margin: 0 auto 25px;
+        width: 101%;
+        border: 1px solid white;
+        padding: 5%;
+        background: gold;
+    }
+    .conteudo img {
+        max-width: 110%;
+        margin: 0 0 25px -5%;
+        min-width: 110%;
+    }
+    .conteudo.continue-lendo:hover{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    nav.menu ul a {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+    .post-info {
+        display: none;
+    }
+
+
+}
+.question {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+.answer {
+    display: none;
+    margin-bottom: 15px;
+  }
